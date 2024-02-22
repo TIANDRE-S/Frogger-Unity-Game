@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoadEnemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
     Rigidbody2D _rigidbody;
